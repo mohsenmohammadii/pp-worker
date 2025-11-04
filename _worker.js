@@ -2,7 +2,7 @@ import { connect } from 'cloudflare:sockets';
 // t.me/P_tech2024 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '2cd61524-9843-43ab-8a0a-df4a744bb859';
+let userID = '74c3d679-5d81-4213-b4c2-6aa02b549886';
 
 const proxyIPs = ['mtn.ircf.space', 'mkh.ircf.space', 'mci.ircf.space', 'rtl.ircf.space'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
@@ -949,3 +949,4 @@ function createVLESSSub(userID_Path, hostName) {
 	// Join output with newlines
 	return output.join('\n');
 }
+
